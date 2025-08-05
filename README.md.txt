@@ -1,15 +1,15 @@
-# Touchless Door Opener
+# Visitor Counter System (IR Sensors + OLED + Buzzer)
 
-Arduino-based automatic door using an HC-SR04 ultrasonic sensor, SG90 servo, buzzer, and OLED display.
-
-## Features
-- Detects human presence using distance sensor
-- Automatically opens/closes the door via servo
-- Shows live distance and door status on OLED display
+This project counts the number of visitors entering and exiting a room using two IR sensors. The count is displayed on an OLED screen and a buzzer sounds on each detection.
 
 ## Components Used
 - Arduino Mega
-- HC-SR04 Ultrasonic Sensor
-- SG90 Servo Motor
+- 2x IR Sensors
+- 0.96" I2C OLED Display
 - Buzzer
-- 0.96" I2C OLED Display (ET5049)
+- Jumper Wires, Breadboard
+
+## Features
+- Entry and exit detection
+- Display live count on OLED
+- Buzzer feedback on each person
